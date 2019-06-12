@@ -20,7 +20,9 @@
 package org.sonarqube.gradle;
 
 public class SonarPropertyComputer {
-	public static void main (String str) {
+	
+	private SonarPropertyComputer() {  }
+	public static void main (String[] str) {
 		System.out.println("HelloWorld");
 	}
 }
